@@ -1,8 +1,16 @@
 # NuSOAP for PHP 5.5 - 7.0
 
+[![Downloads total](https://img.shields.io/packagist/dt/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
+[![Latest stable](https://img.shields.io/packagist/v/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
+
 Fork of NuSOAP fixed for PHP 5.5, 5.6 and 7.0 (tested).
 
 All credits belongs to official author(s): http://nusoap.sourceforge.net.
+
+## Install
+```sh
+$ composer require econea/nusoap
+```
 
 ## Usage
 

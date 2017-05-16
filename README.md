@@ -1,4 +1,4 @@
-# NuSOAP for PHP 5.5 - 7.0
+# NuSOAP for PHP 5.4 - 7.1
 
 [![Downloads total](https://img.shields.io/packagist/dt/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
 [![Latest stable](https://img.shields.io/packagist/v/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)

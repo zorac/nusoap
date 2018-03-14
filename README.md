@@ -1,6 +1,6 @@
-# NuSOAP for PHP 5.4 - 7.1
+# NuSOAP for PHP 5.6 - 7.2
 
-Fork of NuSOAP fixed for PHP 5.4, 5.5, 5.6, 7.0 and 7.1 (tested).
+Fork of NuSOAP fixed for PHP 5.6, 7.0, 7.1 and 7.2 (tested).
 
 All credits belongs to official author(s): http://nusoap.sourceforge.net.
 

@@ -23,11 +23,11 @@
   },
   "scripts": {
     "qa": [
-      "linter src tests",
-      "codesniffer src tests"
+      "linter src",
+      "codesniffer src"
     ],
     "linter": [
-      "linter src tests"
+      "linter src"
     ],
     "tester": [
       "tester -s -p php --colors 1 -C tests/cases"

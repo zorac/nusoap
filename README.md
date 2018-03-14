@@ -1,11 +1,20 @@
 # NuSOAP for PHP 5.4 - 7.1
 
-[![Downloads total](https://img.shields.io/packagist/dt/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
-[![Latest stable](https://img.shields.io/packagist/v/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
-
 Fork of NuSOAP fixed for PHP 5.4, 5.5, 5.6, 7.0 and 7.1 (tested).
 
 All credits belongs to official author(s): http://nusoap.sourceforge.net.
+
+----
+
+
+[![Build Status](https://img.shields.io/travis/econea/nusoap.svg?style=flat-square)](https://travis-ci.org/econea/nusoap)
+[![Code coverage](https://img.shields.io/coveralls/econea/nusoap.svg?style=flat-square)](https://coveralls.io/r/econea/nusoap)
+[![Licence](https://img.shields.io/packagist/l/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
+
+[![Downloads this Month](https://img.shields.io/packagist/dm/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
+[![Downloads total](https://img.shields.io/packagist/dt/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
+[![Latest stable](https://img.shields.io/packagist/v/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
+
 
 ## Discussion / Help
 

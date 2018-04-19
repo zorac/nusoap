@@ -58,7 +58,7 @@ composer require econea/nusoap: dev-develop
 | State       | Version       | Branch    | PHP      | Composer                                        |
 |-------------|---------------|-----------|----------|-------------------------------------------------|
 | development | `dev-develop` | `develop` | `>= 5.6` |                                                 |
-| next        | `^0.9.6`      | `v9.x`    | `>= 5.4` |                                                 |
+| next        | `^0.9.6`      | `0.9.x`   | `>= 5.4` |                                                 |
 | stable      | `~0.9.5.1`    | `master`  | `>= 5.4` |                                                 |
 
 ## Usage

@@ -27,7 +27,8 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-v9.x": "0.9.6.x-dev"
+      "dev-0.9.x": "0.9.6.x-dev",
+      "dev-develop": "1.0.x-dev"
     }
   }
 }

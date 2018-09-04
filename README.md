@@ -25,7 +25,7 @@ All credits belongs to official author(s): http://nusoap.sourceforge.net.
 Solid rock version is `~0.9.5.x`.
 
 ```sh
-composer require econea/nusoap: ~0.9.5.1
+composer require econea/nusoap:~0.9.5.1
 ```
 
 ### `Next`
@@ -42,7 +42,7 @@ Just bug fixing for `>=0.9.6`. Update your composer.json.
 And install next version.
 
 ```sh
-composer require econea/nusoap: ^0.9.6
+composer require econea/nusoap:^0.9.6
 ```
 
 ### `Development`
@@ -50,7 +50,7 @@ composer require econea/nusoap: ^0.9.6
 Total refactored version (split into more files, CI, etc).
 
 ```sh
-composer require econea/nusoap: dev-develop
+composer require econea/nusoap:dev-develop
 ```
 
 ## Version

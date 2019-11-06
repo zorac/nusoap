@@ -1,24 +1,41 @@
-# NuSOAP for PHP 5.4 - 7.1
+<h1 align=center>NuSOAP</h1>
 
-Fork of NuSOAP fixed for PHP 5.4, 5.5, 5.6, 7.0 and 7.1 (tested).
+<p align=center>
+NuSOAP is a rewrite of SOAPx4, provided by NuSphere and Dietrich Ayala. It is a set of PHP classes - no PHP extensions required - that allow developers to create and consume web services based on SOAP 1.1, WSDL 1.1 and HTTP 1.0/1.1.
+</p>
 
-All credits belongs to official author(s): http://nusoap.sourceforge.net.
-----
+<p align=center>
+🕹 <a href="https://f3l1x.io">f3l1x.io</a> | 💻 <a href="https://github.com/f3l1x">f3l1x</a> | 🐦 <a href="https://twitter.com/xf3l1x">@xf3l1x</a>
+</p>
 
+<p align=center>
+  All credits belongs to official authors, take a look at <a href="https://nusoap.sourceforge.net">nusoap.sourceforge.net</a>
+</p>
 
-[![Build Status](https://img.shields.io/travis/econea/nusoap.svg?style=flat-square)](https://travis-ci.org/econea/nusoap)
-[![Code coverage](https://img.shields.io/coveralls/econea/nusoap.svg?style=flat-square)](https://coveralls.io/r/econea/nusoap)
-[![Licence](https://img.shields.io/packagist/l/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
+<p align=center>
+    <a href="https://travis-ci.org/econea/nusoap"><img src="https://img.shields.io/travis/econea/nusoap.svg?style=flat-square"></a>
+    <a href="https://packagist.org/packages/econea/nusoap"><img src="https://img.shields.io/packagist/l/econea/nusoap.svg?style=flat-square"></a>
+    <a href="https://packagist.org/packages/econea/nusoap"><img src="https://img.shields.io/packagist/dt/econea/nusoap.svg?style=flat-square"></a>
+    <a href="https://packagist.org/packages/econea/nusoap"><img src="https://img.shields.io/packagist/v/econea/nusoap.svg?style=flat-square"></a>
+</p>
 
-[![Downloads this Month](https://img.shields.io/packagist/dm/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
-[![Downloads total](https://img.shields.io/packagist/dt/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
-[![Latest stable](https://img.shields.io/packagist/v/econea/nusoap.svg?style=flat-square)](https://packagist.org/packages/econea/nusoap)
+-----
 
-## Discussion / Help
+## Versions
 
-[![Join the chat](https://img.shields.io/gitter/room/econea/econea.svg?style=flat-square)](http://bit.ly/ecogitter)
+| State       | Version       | Branch    | PHP      |
+|-------------|---------------|-----------|----------|
+| development | `dev-develop` | `develop` | `>= 5.6` |
+| next        | `^0.9.6`      | `0.9.x`   | `>= 5.4` |
+| stable      | `~0.9.5.1`    | `master`  | `>= 5.4` |
 
-## Install
+## Installation
+
+To install this pkg use Composer.
+
+```
+composer require econea/nusoap
+```
 
 ### `Stable`
 
@@ -30,36 +47,31 @@ composer require econea/nusoap:~0.9.5.1
 
 ### `Next`
 
-Just bug fixing for `>=0.9.6`. Update your composer.json.
+Just bugfixing for `>=0.9.6`. Update your composer.json.
 
 ```json
 {
+  "require": {
+    "econea/nusoap": "^0.9.6"
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
-```
-
-And install next version.
-
-```sh
-composer require econea/nusoap:^0.9.6
 ```
 
 ### `Development`
 
 Total refactored version (split into more files, CI, etc).
 
-```sh
-composer require econea/nusoap:dev-develop
+```json
+{
+  "require": {
+    "econea/nusoap": "dev-develop"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
 ```
-
-## Version
-
-| State       | Version       | Branch    | PHP      | Composer                                        |
-|-------------|---------------|-----------|----------|-------------------------------------------------|
-| development | `dev-develop` | `develop` | `>= 5.6` |                                                 |
-| next        | `^0.9.6`      | `0.9.x`   | `>= 5.4` |                                                 |
-| stable      | `~0.9.5.1`    | `master`  | `>= 5.4` |                                                 |
 
 ## Usage
 
@@ -80,14 +92,25 @@ Take a look at `develop` branch. There will be new features and modernizations.
 Minimal version is set to PHP 5.6.
 
 ```sh
-composer require econea/nusoap:dev-master
+composer require econea/nusoap:dev-develop
 ```
+
+## Help
+
+[![Join the chat](https://img.shields.io/gitter/room/econea/econea.svg?style=flat-square)](http://bit.ly/ecogitter)
 
 ## Maintainers
 
 <table>
   <tbody>
     <tr>
+      <td align="center">
+        <a href="https://nusoap.sourceforge.net">
+            <img width="150" height="150" src="https://via.placeholder.com/320x320?text=NuSOAP">
+        </a>
+        </br>
+        <a href="https://nusoap.sourceforge.net">NuSOAP</a>
+      </td>
       <td align="center">
         <a href="https://github.com/f3l1x">
             <img width="150" height="150" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=150">

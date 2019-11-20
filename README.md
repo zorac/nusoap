@@ -25,9 +25,8 @@ NuSOAP is a rewrite of SOAPx4, provided by NuSphere and Dietrich Ayala. It is a 
 
 | State       | Version       | Branch    | PHP      |
 |-------------|---------------|-----------|----------|
+| stable      | `~0.9.7`      | `master`  | `>= 5.4` |
 | development | `dev-develop` | `develop` | `>= 5.6` |
-| next        | `^0.9.6`      | `0.9.x`   | `>= 5.4` |
-| stable      | `~0.9.5.1`    | `master`  | `>= 5.4` |
 
 ## Installation
 
@@ -39,24 +38,10 @@ composer require econea/nusoap
 
 ### `Stable`
 
-Solid rock version is `~0.9.5.x`.
+Solid rock version is `~0.9.7`.
 
 ```sh
-composer require econea/nusoap:~0.9.5.1
-```
-
-### `Next`
-
-Just bugfixing for `>=0.9.6`. Update your composer.json.
-
-```json
-{
-  "require": {
-    "econea/nusoap": "^0.9.6"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
-}
+composer require econea/nusoap
 ```
 
 ### `Development`

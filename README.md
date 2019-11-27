@@ -9,7 +9,7 @@ NuSOAP is a rewrite of SOAPx4, provided by NuSphere and Dietrich Ayala. It is a 
 </p>
 
 <p align=center>
-  All credits belongs to official authors, take a look at <a href="https://nusoap.sourceforge.net">nusoap.sourceforge.net</a>
+  All credits belongs to official authors, take a look at <a href="https://sourceforge.net/projects/nusoap/">sourceforge.net/projects/nusoap/</a>
 </p>
 
 <p align=center>

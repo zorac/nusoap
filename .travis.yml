@@ -5,6 +5,7 @@ php:
     - 7.1
     - 7.2
     - 7.3
+    - 7.4
 
 before_install:
   # turn off XDebug
@@ -15,7 +16,7 @@ install:
   - travis_retry composer install --no-progress --prefer-dist
 
 script:
-  # Nette/Tester
+  # Linter
   - composer run-script linter
 
 #jobs:

@@ -13,7 +13,7 @@ NuSOAP is a rewrite of SOAPx4, provided by NuSphere and Dietrich Ayala. It is a 
 </p>
 
 <p align=center>
-    <a href="https://travis-ci.org/econea/nusoap"><img src="https://img.shields.io/travis/econea/nusoap.svg?style=flat-square"></a>
+    <a href="https://travis-ci.org/pwnlabs/nusoap"><img src="https://img.shields.io/travis/pwnlabs/nusoap.svg?style=flat-square"></a>
     <a href="https://packagist.org/packages/econea/nusoap"><img src="https://img.shields.io/packagist/l/econea/nusoap.svg?style=flat-square"></a>
     <a href="https://packagist.org/packages/econea/nusoap"><img src="https://img.shields.io/packagist/dt/econea/nusoap.svg?style=flat-square"></a>
     <a href="https://packagist.org/packages/econea/nusoap"><img src="https://img.shields.io/packagist/v/econea/nusoap.svg?style=flat-square"></a>

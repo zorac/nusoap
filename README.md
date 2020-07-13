@@ -25,7 +25,7 @@ NuSOAP is a rewrite of SOAPx4, provided by NuSphere and Dietrich Ayala. It is a 
 ## Info
 
 - Supported PHP: [5.4 - 7.4](https://travis-ci.org/pwnlabs/nusoap)
-- Latest version: [0.9.8](https://github.com/pwnlabs/nusoap/releases/tag/v0.9.8)
+- Latest version: [0.9.9](https://github.com/pwnlabs/nusoap/releases/tag/v0.9.9)
 - Dev version: [develop](https://github.com/pwnlabs/nusoap/tree/develop)
 - Official project: https://sourceforge.net/projects/nusoap/
 

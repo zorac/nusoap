@@ -17,36 +17,29 @@ NuSOAP is a rewrite of SOAPx4, provided by NuSphere and Dietrich Ayala. It is a 
     <a href="https://packagist.org/packages/econea/nusoap"><img src="https://img.shields.io/packagist/l/econea/nusoap.svg?style=flat-square"></a>
     <a href="https://packagist.org/packages/econea/nusoap"><img src="https://img.shields.io/packagist/dt/econea/nusoap.svg?style=flat-square"></a>
     <a href="https://packagist.org/packages/econea/nusoap"><img src="https://img.shields.io/packagist/v/econea/nusoap.svg?style=flat-square"></a>
+    <a href="http://bit.ly/ctteg"><img src="https://img.shields.io/gitter/room/contributte/contributte.svg?style=flat-square"></a>
 </p>
 
 -----
 
-## Versions
+## Info
 
-| State       | Version       | Branch    | PHP      |
-|-------------|---------------|-----------|----------|
-| stable      | `~0.9.7`      | `master`  | `>= 5.4` |
-| development | `dev-develop` | `develop` | `>= 5.6` |
+- Supported PHP: [5.4 - 7.4](https://travis-ci.org/pwnlabs/nusoap)
+- Latest version: [0.9.8](https://github.com/pwnlabs/nusoap/releases/tag/v0.9.8)
+- Dev version: [develop](https://github.com/pwnlabs/nusoap/tree/develop)
+- Official project: https://sourceforge.net/projects/nusoap/
 
 ## Installation
 
-To install this pkg use Composer.
+To install this library use [Composer](https://getcomposer.org/).
 
 ```
 composer require econea/nusoap
 ```
 
-### `Stable`
+**Bleeding edge**
 
-Solid rock version is `~0.9.7`.
-
-```sh
-composer require econea/nusoap
-```
-
-### `Development`
-
-Total refactored version (split into more files, CI, etc).
+If you want to test bleeding edge, follow this.
 
 ```json
 {
@@ -70,43 +63,17 @@ $client->decode_utf8 = FALSE;
 $result = $client->call($action, $data);
 ```
 
-## Experimental
+## Development
 
-Take a look at `develop` branch. There will be new features and modernizations.
+See [how to contribute](https://contributte.org/contributing.html) to this package.
 
-Minimal version is set to PHP 5.6.
+This package is currently maintaining by these authors.
 
-```sh
-composer require econea/nusoap:dev-develop
-```
-
-## Help
-
-[![Join the chat](https://img.shields.io/gitter/room/econea/econea.svg?style=flat-square)](http://bit.ly/ecogitter)
-
-## Maintainers
-
-<table>
-  <tbody>
-    <tr>
-      <td align="center">
-        <a href="https://nusoap.sourceforge.net">
-            <img width="150" height="150" src="https://via.placeholder.com/320x320?text=NuSOAP">
-        </a>
-        </br>
-        <a href="https://nusoap.sourceforge.net">NuSOAP</a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/f3l1x">
-            <img width="150" height="150" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=150">
-        </a>
-        </br>
-        <a href="https://github.com/f3l1x">Milan Felix Šulc</a>
-      </td>
-    </tr>
-  <tbody>
-</table>
+<a href="https://github.com/f3l1x">
+    <img width="80" height="80" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=80">
+</a>
 
 -----
 
-Thank you for testing, reporting and contributing.
+Consider to [support](https://contributte.org/partners.html) **ninjify** development team.
+Also thank you for using this package.

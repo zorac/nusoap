@@ -75,5 +75,5 @@ This package is currently maintaining by these authors.
 
 -----
 
-Consider to [support](https://contributte.org/partners.html) **ninjify** development team.
+Consider to [support](https://contributte.org/partners.html) **pwnlabs** development team.
 Also thank you for using this package.

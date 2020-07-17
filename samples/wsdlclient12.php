@@ -198,7 +198,7 @@ if ($method == 'ItemLookup') {
 } elseif ($method == 'CartCreate') {
 	$result = $client->call('CartCreate', array('body' => GetCartCreateParams()));
 } else {
-	echo $client->sanitize("Unsupported method $method");
+	echo "Unsupported method $method";
 	exit;
 }
 // Check for a fault

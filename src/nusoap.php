@@ -8474,7 +8474,7 @@ class nusoap_wsdlcache {
      * @access private
      */
     function obtainMutex($filename, $mode) {
-        if (isset($this->fplock[password_hash($filename, PASSWORD_DEFAULT)])) {
+        if (isset($this->fplock[md5($filename)])) {
             $this->debug("Lock for $filename already exists");
             return false;
         }

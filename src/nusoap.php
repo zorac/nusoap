@@ -3879,7 +3879,7 @@ class nusoap_server extends nusoap_base
             }
         } elseif ($this->wsdl) {
             $this->debug("In service, return Web description");
-            print $this->sanitize($this->wsdl->webDescription());
+            print $this->wsdl->webDescription();
         } else {
             $this->debug("In service, no Web description");
             header("Content-Type: text/html; charset=ISO-8859-1\r\n");
